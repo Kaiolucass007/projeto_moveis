@@ -14,8 +14,8 @@
 :root {
   --background-color: #f3dbc3; /* Background color for the entire website, including individual sections */
   --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #8b4513; /* Color for headings, subheadings and title throughout the website, textos do site, em geral */
-  --accent-color: #d7c9b1; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out, Textos destacados */
+  --heading-color: #8b4513; /* Color for headings, subheadings and title throughout the website, TEXTOS DO SITE, EM GERAL */
+  --accent-color: #d7c9b1; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out, TEXTOS DESTACADOS */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -24,7 +24,7 @@
 :root {
   --nav-color: #212529; /* The default color of the main navmenu links */
   --nav-hover-color: #293242; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
+  --nav-mobile-background-color: #f3dbc3; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #0a4db8; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
@@ -205,7 +205,7 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #d7c9b1;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -278,6 +278,7 @@ h6 {
   margin-right: 8px;
 }
 .header .main-header .logo h1 {
+  color:#ffffff;
   font-size: 26px;
   margin: 0;
   font-weight: 700;
@@ -1891,7 +1892,7 @@ section,
 # Info Cards Section
 --------------------------------------------------------------*/
 .info-cards {
-  padding: 30px 0;
+  padding: 30px 0; background-color: #f3dbc3;
 }
 .info-cards .info-card {
   padding: 20px 15px;
